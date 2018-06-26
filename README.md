@@ -9,6 +9,7 @@ Since the RK3036 SoC in this device seems to have relatively good open source ke
 - [Rockchip RK3036](datasheets/rk3036.pdf) Dual core ARM Cortex-A7 SoC
 - [Macronix MX25L12845E](datasheets/mx25l12845e.pdf) 16M (128Mbit!) CMOS flash memory
 - [Hynix HY5PS1G1631C](datasheets/hy5ps1g1631c.pdf) 1GB DDR2 SDRAM
+- [Realtek RTL8188CTV](datasheets/rtl8188ctv.pdf) 802.11n WLAN USB module
 
 ### Pics
 
