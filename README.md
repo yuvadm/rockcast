@@ -10,7 +10,12 @@ Since the RK3036 SoC in this device seems to have relatively good open source ke
 - [Macronix MX25L12845E](datasheets/mx25l12845e.pdf) 16M (128Mbit!) CMOS flash memory
 - [Hynix HY5PS1G1631C](datasheets/hy5ps1g1631c.pdf) 1GB DDR2 SDRAM
 
-### Dump
+### Pics
+
+ - [front.jpg](imgs/front.jpg)
+ - [back.jpg](imgs/back.jpg)
+
+## Dump
 
 Use [Flashrom](https://www.flashrom.org/Flashrom) from latest git master to enjoy significant speedup.
 
@@ -20,7 +25,7 @@ Dumping the flash via Bus Pirate:
 $ flashrom -p buspirate_spi:dev=/dev/ttyUSB0,spispeed=8M -c MX25L12835F/MX25L12845E/MX25L12865E -o log.txt -r rom.bin
 ```
 
-### Notes
+## Notes
 
 - Booting with button pressed -> mask rom mode
 - Booting with SPI out pin 8 shorted to ground -> mask rom mode
