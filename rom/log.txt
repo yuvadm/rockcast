@@ -1,0 +1,7 @@
+flashrom p1.0-84-gac01baa on Linux 4.17.2-1-ARCH (x86_64)
+flashrom was built with libpci 3.5.6, GCC 8.1.1 20180531, little endian
+Command line (9 args): /home/yuval/dev/flashrom/flashrom -VVVV -p buspirate_spi:dev=/dev/ttyUSB0,spispeed=8M -c MX25L12835F/MX25L12845E/MX25L12865E -o log.txt -r rom.bin
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Initializing buspirate_spi programmer
+Raw bitbang mode version 1
+Bus Pirate shutdown completed.
