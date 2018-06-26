@@ -30,3 +30,7 @@ $ flashrom -p buspirate_spi:dev=/dev/ttyUSB0,spispeed=8M -c MX25L12835F/MX25L128
 - Booting with button pressed -> mask rom mode
 - Booting with SPI out pin 8 shorted to ground -> mask rom mode
 
+## Open Questions
+
+- What the fuck is going on with the storage? Why is the ROM dump so sparse?
+- Where are the UART pads / pins hiding?
