@@ -1,10 +1,10 @@
 # Rockcast
 
-We're playing with shitty hardware again. This time it's [this magnificent piece of DLNA/Miracast dongle](https://www.banggood.com/AnyCast-M2-Plus-WiFi-Display-Dongle-Miracast-TV-Dongle-HDMI-DLNA-AirPlay-1080P-p-982127.html)
+We're playing with shitty hardware [again](https://github.com/yuvadm/DG-M1Q/). This time it's [this magnificent piece of DLNA/Miracast dongle](https://www.banggood.com/AnyCast-M2-Plus-WiFi-Display-Dongle-Miracast-TV-Dongle-HDMI-DLNA-AirPlay-1080P-p-982127.html)
 
 ## Flash
 
-ROM chip is a [Macronix MX25L12845E](datasheet/mx25l12845e.pdf) 128M CMOS flash memory.
+ROM chip is a [Macronix MX25L12845E](datasheet/mx25l12845e.pdf) 16M (128Mbit!) CMOS flash memory.
 
 ### Dump
 
