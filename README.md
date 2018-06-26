@@ -1,6 +1,8 @@
 # Rockcast
 
-We're playing with shitty hardware [again](https://github.com/yuvadm/DG-M1Q/). This time it's [this magnificent piece of DLNA/Miracast dongle](https://www.banggood.com/AnyCast-M2-Plus-WiFi-Display-Dongle-Miracast-TV-Dongle-HDMI-DLNA-AirPlay-1080P-p-982127.html)
+We're playing with cheap hardware [again](https://github.com/yuvadm/DG-M1Q/). This time it's [this magnificent piece of DLNA/Miracast dongle](https://www.banggood.com/AnyCast-M2-Plus-WiFi-Display-Dongle-Miracast-TV-Dongle-HDMI-DLNA-AirPlay-1080P-p-982127.html) which looks like a Chinesium clone of the Wecast C2.
+
+Since the RK3036 SoC in this device seems to have relatively good open source kernel and toolchain support, it might be a nice target for custom firmware.
 
 ## Hardware 
 
