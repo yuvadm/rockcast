@@ -18,3 +18,8 @@ Dumping the flash via Bus Pirate:
 $ flashrom -p buspirate_spi:dev=/dev/ttyUSB0,spispeed=8M -c MX25L12835F/MX25L12845E/MX25L12865E -o log.txt -r rom.bin
 ```
 
+### Notes
+
+- Booting with button pressed -> mask rom mode
+- Booting with SPI out pin 8 shorted to ground -> mask rom mode
+
