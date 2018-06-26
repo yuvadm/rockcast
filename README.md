@@ -2,9 +2,11 @@
 
 We're playing with shitty hardware [again](https://github.com/yuvadm/DG-M1Q/). This time it's [this magnificent piece of DLNA/Miracast dongle](https://www.banggood.com/AnyCast-M2-Plus-WiFi-Display-Dongle-Miracast-TV-Dongle-HDMI-DLNA-AirPlay-1080P-p-982127.html)
 
-## Flash
+## Hardware 
 
-ROM chip is a [Macronix MX25L12845E](datasheet/mx25l12845e.pdf) 16M (128Mbit!) CMOS flash memory.
+- [Rockchip RK3036](datasheets/rk3036.pdf) Dual core ARM Cortex-A7 SoC
+- [Macronix MX25L12845E](datasheets/mx25l12845e.pdf) 16M (128Mbit!) CMOS flash memory
+- [Hynix HY5PS1G1631C](datasheets/hy5ps1g1631c.pdf) 1GB DDR2 SDRAM
 
 ### Dump
 
