@@ -11,10 +11,10 @@ Since the RK3036 SoC in this device seems to have relatively good open source ke
 - [Hynix HY5PS1G1631C](datasheets/hy5ps1g1631c.pdf) 1GB DDR2 SDRAM
 - [Realtek RTL8188CTV](datasheets/rtl8188ctv.pdf) 802.11n WLAN USB module
 
-### Pics
+### PCB Images
 
- - [front.jpg](imgs/front.jpg)
- - [back.jpg](imgs/back.jpg)
+![front.jpg](imgs/front.jpg)
+![back.jpg](imgs/back.jpg)
 
 ## Dump
 
