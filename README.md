@@ -30,6 +30,8 @@ $ flashrom -p buspirate_spi:dev=/dev/ttyUSB0,spispeed=8M -c MX25L12835F/MX25L128
 
 - Booting with button pressed -> mask rom mode
 - Booting with SPI out pin 8 shorted to ground -> mask rom mode
+- On boot device attemps to access `http://120.25.100.187:2300/3036/anycast/ksctv/update.img` to download a firmware update
+- Update metadata and signature is fetched from `http://120.25.100.187:2300/3036/anycast/ksctv/config.txt`
 
 ## Open Questions
 

@@ -1,0 +1,7 @@
+major_version=10
+middle_version=88
+minor_version=14
+suffix_version=
+release_date=
+MD5=3F9EDA9260E92097BFFA9649145CC124
+MD5_OTA=D99635F61FE8981592C5C67EA1556CCF
