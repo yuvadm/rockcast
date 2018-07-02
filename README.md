@@ -26,6 +26,8 @@ Dumping the flash via Bus Pirate:
 $ flashrom -p buspirate_spi:dev=/dev/ttyUSB0,spispeed=8M -c MX25L12835F/MX25L12845E/MX25L12865E -o log.txt -r rom.bin
 ```
 
+The specific dump in this repo is no good for some off reasonm, see next section for a better image.
+
 ## Stock Firmware
 
 On boot device attemps to access `http://120.25.100.187:2300/3036/anycast/ksctv/update.img` to download a firmware update.
@@ -48,6 +50,10 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 4456448       0x440000        JFFS2 filesystem, little endian
 5242880       0x500000        Squashfs filesystem, little endian, version 4.0, compression:xz, size: 11323710 bytes, 344 inodes, blocksize: 131072 bytes, created: 2018-01-14 00:50:49
 ```
+
+## DLNA
+
+The device publishes a DLNA MediaRenderer profile at the following URL `http://192.168.49.1:38400/deviceDescription/MediaRenderer`
 
 ## Notes
 
